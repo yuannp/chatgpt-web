@@ -15,11 +15,10 @@ export interface UserState {
 export function defaultSetting(): UserState {
   return {
     userInfo: {
-          userInfo: {
-      		avatar: 'src/assets/avatar.jpg',
-      		name: '狗狗',
-      		description: '专注于疑难解惑二十年',
-    },
+      avatar: 'src/assets/avatar.jpg',
+      name: '狗狗',
+      description: '专注于疑难解惑二十年'
+    }
   }
 }
 
